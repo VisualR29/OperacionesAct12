@@ -4,7 +4,7 @@ print("🔧 Ejecutando script de prueba...")
 
 try:
     # Generar archivo de resultados
-    with open("resultado.txt", "w") as file:
+    with open("resultado.txt", "r") as file:
         file.write(f"Fecha de ejecución: {datetime.datetime.now()}\n")
         file.write("Estado: ÉXITO\n")
     print("✅ Archivo 'resultado.txt' creado!")
